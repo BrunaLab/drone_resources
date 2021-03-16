@@ -1,0 +1,77 @@
+---
+title: "Drone Testing & Registration"
+date: "updated: `r Sys.Date()`"
+header-includes:
+   - \usepackage[default]{sourcesanspro}
+   - \usepackage[T1]{fontenc}
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+  rmdformats::robobook: default
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+library(rmdformats)
+
+## Global options
+options(max.print="75")
+opts_chunk$set(echo=FALSE,
+	             cache=TRUE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+opts_knit$set(width=75)
+```
+
+
+# FAA & UF Rules & Regulations 
+
+1. Overview of FAA Requirements: [Certificated Remote Pilots including Commercial Operators](https://www.faa.gov/uas/commercial_operators/)  
+2. UF EH&S UAS [Proceedures and Rules](https://www.ehs.ufl.edu/programs/uas/uf/)
+
+
+# Proposed  Plan
+
+1. Obtain FTN [link](https://iacra.faa.gov/IACRA/Default.aspx)
+2. Read IACRA [Users Guide](https://iacra.faa.gov/IACRA/HelpAndInfo.aspx?id=5)
+3. Register for the [Exam](https://faa.psiexams.com/faa/login)
+4. Download
+
+    * FAA Remote Pilot – Small Unmanned Aircraft Systems Study Guide [pdf](https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/media/remote_pilot_study_guide.pdf)
+    * FAA Aeronautical Information Manaual (AIM) [pdf](https://www.faa.gov/air_traffic/publications/media/aim_basic_dtd_10-12-17.pdf)
+    * FAA Pilot’s Handbook of Aeronautical Knowledge [html](https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak/) or [pdf](https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak/media/pilot_handbook.pdf)
+
+5. Buy
+
+    * FAA Airman Knowledge Testing Supplement - Sport Pilot, Recreational Pilot, and Private Pilot [(available at Amazon, ~$10)](https://www.amazon.com/ASA-Airman-Knowledge-Testing-Supplement/dp/B01K0L2WOA). It is used for the exam so you are given one then, but worth buying in advance so you can study with the actually book/questions used in the exam.
+
+5. Plan a study schedule based on exam date. Some resources include...
+
+    * UF LinkedIn Learning [Video Course](https://www.linkedin.com/learning/cert-prep-faa-107-commercial-drone-license/eligibility-and-test-locations?u=41282748)
+
+    * TMac overview on studying for the exam (kinda annoying but lots of really useful info): [YouTube](https://www.youtube.com/watch?v=s4R3WEQgHoo). Includes link to his [study Notes](https://drive.google.com/file/d/1K_wvpc1Flhx3c4HPJU0p4OtpRYJInEHF/view) and lots of other resources in the video notes
+
+## Other Exam Prep Materials  
+
+  * FAA [Training Resources](https://www.faa.gov/training_testing/training/)  
+      
+  * Information on tests, number of questions, and passing scores [FAA pdf](https://www.faa.gov/training_testing/testing/media/testing_matrix.pdf)  
+    
+  * UF LinkedIn Learning Online Certification [Video Course #2](https://www.linkedin.com/learning/cert-prep-faa-part-107-commercial-drone-license-2017/the-test?u=41282748)  
+      
+  * FAA [Practice Exams](https://faa.psiexams.com/FAA/login)  
+      
+  * [DPGS](https://www.dronepilotgroundschool.com/missed-part-107-test-prep-questions/) Test Prep Questions  
+
+
+
