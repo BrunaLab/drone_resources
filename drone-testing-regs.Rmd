@@ -10,9 +10,9 @@ fontsize: 12pt
 linkcolor: blue
 urlcolor: blue
 output:
-  pdf_document: default
-  html_document:
-    df_print: paged
+  # pdf_document: default
+  # html_document:
+  #   df_print: paged
   rmdformats::robobook: default
 ---
 
